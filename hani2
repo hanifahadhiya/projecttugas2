@@ -1,0 +1,5 @@
+# pencabangan IF dengan 1 kasus
+nama = input("masukkan nama : ")
+if nama == "Hanifah Adhiya" :
+    print("Halo", nama, "Selamat Pagi")
+    print()

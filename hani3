@@ -1,0 +1,13 @@
+while True:
+    umur=int(input('Masukan umur anda: ').lower())
+
+    if umur >= 65:
+        print('usia pensiun')
+    elif umur >= 25:
+        print('usia produktif')
+    elif umur >= 15:
+        print('usia remaja')
+    elif umur >= 1:
+        print('usia anak')
+    else: 
+        print('kondisi salah')
